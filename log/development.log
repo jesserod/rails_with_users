@@ -599,3 +599,17 @@ Started GET "/users" for 108.68.106.39 at 2012-10-23 14:05:17 -0700
   [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
 Rendered users/index.html.erb within layouts/application (75.6ms)
 Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 108.68.106.39 at 2012-10-23 14:14:25 -0700
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Rendered users/index.html.erb within layouts/application (52.4ms)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 108.68.106.39 at 2012-10-23 14:14:28 -0700
+  Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Rendered users/index.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.2ms)
